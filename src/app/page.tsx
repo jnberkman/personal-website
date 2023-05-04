@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 text-white bg-black">
       <div className="hero p-28">
         <div className="hero-content text-center">
           <div className="max-w-md">
@@ -49,7 +49,7 @@ export default function Home() {
               href="mailto:jacknberkman@gmail.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="text-white hover:text-White"
+              className="text-white hover:text-white"
             >
               <span className="sr-only">Mail</span>
               <svg
